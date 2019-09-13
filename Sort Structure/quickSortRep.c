@@ -1,3 +1,7 @@
+/*
+Implementação do QuickSort para numeros repetidos.
+By: Ayrton Cossuol.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
