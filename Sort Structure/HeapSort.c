@@ -1,3 +1,4 @@
+#Codigo s√≥ HeapSort
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -38,13 +39,13 @@ int main(){
     int vet[9] = {33,32,28,31,29,26,25,30,27};
     int i;
 
-    printf("Esse È seu HEAP de entrada\n");
+    printf("Esse √© seu HEAP de entrada\n");
     for(i = 0 ; i < 9 ; i++)
         printf("%d\t", vet[i]);
 
     heapSort(vet,9);
 
-    printf("\nEsse È seu HEAP ordenado\n");
+    printf("\nEsse √© seu HEAP ordenado\n");
     for(i = 0 ; i < 9 ; i++)
         printf("%d\t", vet[i]);
 }
